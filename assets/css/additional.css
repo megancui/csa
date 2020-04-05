@@ -1,0 +1,58 @@
+/* This file contains additional CSS. */
+
+/* Meet The Board */
+
+.board__group img {
+  width: 250px;
+}
+
+.board__group p {
+  margin: 0;
+}
+
+.board__group h3 {
+  margin: 0;
+}
+
+.board .board__group {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Get Involved */
+
+.involved__group img {
+  width: 50px;
+  display: inline-block;
+}
+
+.involved__group p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.involved__group h3 {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.involved__sub {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.fb-page {
+  height: 300px;
+}
+
+#three .container .content {
+  text-align: left;
+  display: inline-block;
+  width: 300px;
+}
+
+#three .container {
+  text-align: center;
+}
