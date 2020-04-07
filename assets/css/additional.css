@@ -1,5 +1,15 @@
 /* This file contains additional CSS. */
 
+header img {
+  width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+  header img {
+    width: 80%;
+  }
+}
+
 /* Meet The Board */
 
 .board__group img {
@@ -18,9 +28,14 @@
   width: 250px;
   display: inline-block;
   vertical-align: top;
+  line-height: 1.2em;
+  margin: 20px;
 }
 
 /* Get Involved */
+.involved__group {
+  border-bottom: none;
+}
 
 .involved__group img {
   width: 50px;
@@ -28,11 +43,13 @@
 }
 
 .involved__group p {
+  width: 200px;
   margin: 0;
   margin-left: 10px;
 }
 
 .involved__group h3 {
+  width: 200px;
   margin: 0;
   margin-left: 10px;
 }

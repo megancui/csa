@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,800");
 
 /*
 	Highlights by HTML5 UP
@@ -85,7 +85,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/banquet-wendy.jpeg");
+		background-image: url("images/overlay.png"), url("../../images/backgrounds/compressed/banquet-wendy.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #6f7577;
-		font-family: "Raleway", "Helvetica", sans-serif;
+		font-family: "Lato", "Helvetica", sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -135,7 +135,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #ff002b !important;
+			color: #ffb1be !important;
 			text-decoration: none;
 		}
 
@@ -2739,7 +2739,7 @@ input, select, textarea {
 
 		.main .container {
 			padding: 5em 2.5em 8em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255, 0.9);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -2831,13 +2831,26 @@ input, select, textarea {
 				}
 
 			#header header p {
-				color: #ffffff;
-				font-weight: 700;
+				width: 100%;
 				margin: 1.5em 0 0 0;
+				padding: 0% 20%;
+				color: #ffffff;
+				font-size: 1.2rem;
+				font-weight: 400;
+			}
+
+			@media screen and (max-width: 980px) {
+
+				#header header p {
+					padding: 0% 10%;
+					font-size: 0.8rem;
+					line-height: 1rem;
+				}
+	
 			}
 
 		#header .container {
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255, 0.90);
 			bottom: 0;
 			left: 50%;
 			margin-left: -17.5em;
@@ -2864,7 +2877,7 @@ input, select, textarea {
 
 		#footer .container {
 			padding: 5em 2.5em 3em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255, 0.90);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
